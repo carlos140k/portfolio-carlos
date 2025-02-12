@@ -106,3 +106,19 @@ header {
 .nav a:hover, .nav-responsive a:hover {
     color: var(--main-color);
 }
+
+section {
+    min-height: 100vh;
+    padding: 6rem 6rem 2rem;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.home, .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
