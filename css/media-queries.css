@@ -61,3 +61,15 @@
         font-size: 0.8rem;
     }
 }
+
+/* Small (sm): Smartphone (landscape) */
+@media (min-width: 576px) {
+    .home-img, .about-img {
+        width: 65%;
+        max-width: 65%;
+    }
+
+    .services-box {
+        width: 70%;
+    }
+}
