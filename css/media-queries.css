@@ -122,3 +122,23 @@
         gap: 1.2rem;
     }
 }
+
+/* Extra Large (xl): Desktop */
+@media (min-width: 1200px) {
+    .home-img, .about-img {
+        max-width: 25%;
+    }
+
+    .home-content h1 {
+        font-size: 2.7rem;
+    }
+    
+    .home-content h3 {
+        font-size: 2rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: auto auto auto;
+    }
+}
+/* === /media queries === */
