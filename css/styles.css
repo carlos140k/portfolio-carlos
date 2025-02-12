@@ -38,8 +38,6 @@ body {
     color: var(--text-color);
 }
 
-/* HEADER */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -121,4 +119,45 @@ span {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.home-img {
+    border-right: solid 0.6rem;
+    border-bottom: solid 0.6rem;
+    border-image: linear-gradient(135deg, transparent 50%, var(--main-color));
+    border-image-slice: 1;
+}
+
+.about-img {
+    border-left: solid 0.6rem;
+    border-bottom: solid 0.6rem;
+    border-image: linear-gradient(225deg, transparent 50%, var(--main-color));
+    border-image-slice: 1;
+}
+
+.home-img img, .about-img img {
+    width: 100%;
+}
+
+.about {
+    background-color: var(--bg-color-02);
+}
+
+.home-content, .about-content {
+    width: 45%;
+}
+
+.home-content h1, .about-content h1 {
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.home-content h3, .about-content h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.home-content P, .about-content P {
+    margin-top: 1.2rem;
+    text-align: justify;
 }
