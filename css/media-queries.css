@@ -114,3 +114,11 @@
         width: 49%;
     }
 }
+
+/* Large (lg): Notebook */
+@media (min-width: 992px) {
+    .services-container {
+        flex-direction: row;
+        gap: 1.2rem;
+    }
+}
