@@ -53,6 +53,11 @@
         width: 100%;
     }
 
+    .portfolio-box {
+        height: auto; 
+        aspect-ratio: 4 / 3;
+    }
+
     .portfolio-layer h4 {
         font-size: 1.2rem;
     }
@@ -138,7 +143,14 @@
     }
 
     .portfolio-container {
-        grid-template-columns: auto auto auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 1.5rem; 
+    }
+
+    .portfolio-box {
+        height: auto; 
+        aspect-ratio: 4 / 3;
     }
 }
 /* === /media queries === */
